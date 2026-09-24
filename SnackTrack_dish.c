@@ -1,5 +1,5 @@
 /*
--snackaroo_dish.c-
+-SnackTrack_dish.c-
 Miguel Mallet
 */ 
 
@@ -7,7 +7,7 @@ Miguel Mallet
 implementation of dish management functions
 */
 
-#include "snackaroo_dish.h"
+#include "SnackTrack_dish.h"
 
 //find dish with given code or NULL if not found 
 Dish *dish_find(Dish *head, int code)
