@@ -2,12 +2,12 @@
 prototypes for dish/driver relationship management functions
 */
 
-#ifndef SNACKAROO_REL_H
-#define SNACKAROO_REL_H
+#ifndef SNACKTRACK_REL_H
+#define SNACKTRACK_REL_H
 
-#include "snackaroo.h"
-#include "snackaroo_dish.h"
-#include "snackaroo_driver.h"
+#include "SnackTrack.h"
+#include "SnackTrack_dish.h"
+#include "SnackTrack_driver.h"
 
 Relationship *rel_find(Relationship *head, int id);
 int           rel_insert(Relationship **head, Dish *dish_head, Driver *driver_head);
