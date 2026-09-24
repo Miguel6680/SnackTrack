@@ -1,24 +1,24 @@
-# Makefile for 2211 snackaroo
+# Makefile for 2211 SnackTrack
 
 CC     = gcc
 CFLAGS = -Wall -std=c99
 
-OBJS = snackaroo.o snackaroo_dish.o snackaroo_driver.o snackaroo_rel.o
+OBJS = SnackTrack.o SnackTrack_dish.o SnackTrack_driver.o SnackTrack_rel.o
 
-snackaroo: $(OBJS)
-	$(CC) $(CFLAGS) -o snackaroo $(OBJS)
+SnackTrack: $(OBJS)
+	$(CC) $(CFLAGS) -o SnackTrack $(OBJS)
 
-snackaroo.o: snackaroo.c snackaroo.h snackaroo_dish.h snackaroo_driver.h snackaroo_rel.h
-	$(CC) $(CFLAGS) -c snackaroo.c
+SnackTrack.o: SnackTrack.c SnackTrack.h SnackTrack_dish.h SnackTrack_driver.h SnackTrack_rel.h
+	$(CC) $(CFLAGS) -c SnackTrack.c
 
-snackaroo_dish.o: snackaroo_dish.c snackaroo_dish.h snackaroo.h
-	$(CC) $(CFLAGS) -c snackaroo_dish.c
+SnackTrack_dish.o: SnackTrack_dish.c SnackTrack_dish.h SnackTrack.h
+	$(CC) $(CFLAGS) -c SnackTrack_dish.c
 
-snackaroo_driver.o: snackaroo_driver.c snackaroo_driver.h snackaroo.h
-	$(CC) $(CFLAGS) -c snackaroo_driver.c
+SnackTrack_driver.o: SnackTrack_driver.c SnackTrack_driver.h SnackTrack.h
+	$(CC) $(CFLAGS) -c SnackTrack_driver.c
 
-snackaroo_rel.o: snackaroo_rel.c snackaroo_rel.h snackaroo.h snackaroo_dish.h snackaroo_driver.h
-	$(CC) $(CFLAGS) -c snackaroo_rel.c
+SnackTrack_rel.o: SnackTrack_rel.c SnackTrack_rel.h SnackTrack.h SnackTrack_dish.h SnackTrack_driver.h
+	$(CC) $(CFLAGS) -c SnackTrack_rel.c
 
 clean:
-	rm -f *.o snackaroo
+	rm -f *.o SnackTrack
