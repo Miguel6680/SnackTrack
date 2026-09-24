@@ -1,5 +1,5 @@
 /*
--snackaroo_driver.c-
+-SnackTrack_driver.c-
 Miguel Mallet
 */ 
 
@@ -7,7 +7,7 @@ Miguel Mallet
 implementation of driver management functions
 */
 
-#include "snackaroo_driver.h"
+#include "SnackTrack_driver.h"
 
 //convert colour int 0–6 to string for printing
 static const char *colour_to_string(int c)
