@@ -1,16 +1,16 @@
 /*
--snackaroo.c-
+-SnackTrack.c-
 Miguel Mallet
 */ 
 
 /*
-main program for 2211 Snackaroo 
+main program for 2211 SnackTrack 
 */
 
-#include "snackaroo.h"
-#include "snackaroo_dish.h"
-#include "snackaroo_driver.h"
-#include "snackaroo_rel.h"
+#include "SnackTrack.h"
+#include "SnackTrack_dish.h"
+#include "SnackTrack_driver.h"
+#include "SnackTrack_rel.h"
 
 //input helpers
 //read a whole line of any length. Store up to size-1 chars and discard extra
@@ -309,7 +309,7 @@ int main(void)
     int ch;
 
     printf("**********************\n");
-    printf("* 2211 Snackaroo App *\n");
+    printf("* 2211 SnackTrack App *\n");
     printf("**********************\n\n");
 
     for (;;) {
