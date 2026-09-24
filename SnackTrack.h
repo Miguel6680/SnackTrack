@@ -1,14 +1,14 @@
 /*
--snackaroo.h-
+-SnackTrack.h-
 Miguel Mallet
 */ 
 
 /*
-definitions and prototypes for snackaroo 
+definitions and prototypes for SnackTrack 
 */
 
-#ifndef SNACKAROO_H
-#define SNACKAROO_H
+#ifndef SNACKTRACK_H
+#define SNACKTRACK_H
 
 #include <stdio.h>
 #include <stdlib.h>
