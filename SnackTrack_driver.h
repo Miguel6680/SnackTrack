@@ -1,5 +1,5 @@
 /*
--snackaroo_driver.h-
+-SnackTrack_driver.h-
 Miguel Mallet
 */ 
 
@@ -7,10 +7,10 @@ Miguel Mallet
 prototypes for driver management functions
 */
 
-#ifndef SNACKAROO_DRIVER_H
-#define SNACKAROO_DRIVER_H
+#ifndef SNACKTRACK_DRIVER_H
+#define SNACKTRACK_DRIVER_H
 
-#include "snackaroo.h"
+#include "SnackTrack.h"
 
 Driver *driver_find(Driver *head, int code);
 int     driver_insert(Driver **head);
